@@ -1,0 +1,71 @@
+body{position: absolute;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./undraw_Welcome_re_h3d9.png);
+   flex-wrap: wrap;
+   z-index: -1;}
+
+   .su-img img{position: relative;
+z-index: 1;
+left: 65%;
+width:30%;
+height: 20%;}
+
+#name{position: absolute;
+top:200%;
+right: 10%;
+width: 30%;
+height:25% ;
+    padding: auto;
+}
+#email{position: absolute;
+    top:250%;
+    right: 10%;
+    width: 30%;
+    height:25% ;
+    padding: auto;
+    }
+#password{position: absolute;
+    top:300%;
+    right: 10%;
+    width: 30%;
+    height:25% ;
+    padding: auto;
+    }
+ .terms{position: absolute;
+    top:350%;
+    right: 13%;}
+button{position: absolute;
+    top:400%;
+    right: 15%;
+    width: 20%;
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    background:rgb(233, 88, 88)}
+.sign-in{position: absolute;
+    top:450%;
+    right: -30%;
+z-index: 2;}
+ ::placeholder{
+        font-size: 3vh;
+    font-family: FontAwesome;}
+
+    .su-img, .main,.sign-in{ width: 100%;}
+    @media only screen and (min-width:600px){
+.su-img{ width: 50%;}
+.main{width: 75%;}
+.sign-in{width:100%;}
+    }
+    @media only screen and (min-width:768px){
+        .su-img{ width: 50%;}
+.main{width: 75%;}
+.sign-in{width:100%;}
+
+    }
+
+
+  
